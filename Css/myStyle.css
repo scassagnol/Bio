@@ -2,37 +2,32 @@
 body {
 text-align: center;
 font-family: "Lucida Console", Monaco, monospace;
-background-color: rgb(46,184,92);
-font-size: 30px;
-padding-left: 100px;
-padding-right: 100px;
+background-color: darkgrey;
+font-size: 20px;
 }
 /* mouse over link */
 a:hover {
-  color: black;
+  color: hotpink;
 }
 /*navBar links*/
 .navBar{
-background-color: rgb(46,184,92);
+background-color: darkgrey;
 word-spacing: 100px;
 
 }
+.top-container{
 
+}
 div{
   display: block;
 }
-.photo-container{
-  background-color: white;
-}
 .middle-container{
   background-color: white;
-
 }
 .bottom-container{
 font-size: 10px;
-
 }
-.services-row{
+.skill-row{
   width:50%;
   margin:100px auto 100px auto;
     margin-top: 100px;
@@ -47,43 +42,53 @@ margin-right:30px;
 width: 170px;
 
 }
+h1{
 
+}
 .navLink{
 text-decoration: none;
 display: inline;
 color: white;
 }
 /*bio style*/
-.welcome{
+.bio{
 width:50%;
   margin:100px auto 100px auto;
-    margin-top: 40px;
+    margin-top: 100px;
     margin-right: auto;
     margin-bottom: 100px;
     margin-left: auto;
 text-align:center;
 }
-.contact-me{
-  width:50%;
-    margin:100px auto 100px auto;
-      margin-top: 40px;
-      margin-right: auto;
-      margin-bottom: 100px;
-      margin-left: auto;
-  text-align:center;
-  background-color: white;
+/*algorithm icon*/
+.algorithm{
+border-radius: 25px;
+ padding: 30px;
+ width: 150px;
+ height: 150px;
 }
-
-* {
-  box-sizing: border-box;
+/*coffee*/
+.coffee{
+  width:200px;
+  height:auto;
+  margin-top: 40px;
 }
-
-.row {
-  display: flex;
+/*email icon*/
+.email{
+  width:20px;
+  height:auto;
 }
-
-/* Create three equal columns that sits next to each other */
-.column {
-  flex: 33.33%;
-  padding: 5px;
+/*button style*/
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
+.button {border-radius: 12px;}
