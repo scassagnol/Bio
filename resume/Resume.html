@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+  </head>
+  <body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="C:\Users\Shawna\Documents\Resume.html">Resume</a>
+    <a href="C:\Users\Shawna\Documents\Contact.html">Contact</a>
+  </div>
+
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+</head>
+<body>
+  <article>
+    <p>
+  	<center><font size = "12"><strong>Shawna Cassagnol</strong></font></center>
+  	<center><font size = "5">678-356-9650</font><center/>
+  	<center><font size = "4">shawna.cassagnol@gmail.com | www.linkedin.com/in/shacass| https://github.com/scassagnol</font></center>
+  	<table width = "100%">
+  		<tr>
+  			<td><strong>Objective</strong></td>
+  		</tr>
+
+  		<tr>
+  			<td><strong>Eduacation</strong></td>
+  			<td><strong>Georgia Gwinnett College (GGC)</strong></td>
+  			<td><strong>Fall 2019</strong></td>
+  		</tr>
+  		<tr>
+  			<td></td>
+  			<td>Bachelors of Science in Information Technology, Software Development Concentration </td>
+  		</tr>
+  		<tr>
+  			<td></td>
+  			<td>Major GPA: 3.02</td>
+  		</tr>
+  		<tr>
+  			<td><strong>Software Tools</strong></td>
+  			<td><strong>Languages:</strong> Java, C#, HTML, CSS, Javascript, Python</td>
+  			</tr>
+  			<tr>
+  				<td></td>
+  				<td><strong>Databases:</strong> Firebase,MySql</td>
+  			</tr>
+  			<tr>
+  				<td></td>
+  				<td><strong>Management:</strong> JIRA, GitHub, Knowledge of Agile and Waterfall Methodology</td>
+  			</tr>
+  			<tr>
+  				<td></td>
+  				<td><strong>Integrated Development Environments:</strong> Visual Studio,Visual Studio Code, IntelliJ IDEA</td>
+  			</tr>
+  			<tr>
+  				<td><strong>Software Projects</strong></td>
+  				<td><strong>Developed a game through Unity in C#</strong></td>
+  				<td><strong>Fall 2019</strong></td>
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td><li>Launched a game via WebGL and hosted on <a href="http://jzoretic.altervista.org/TileMapGame/index.html">website</a></li></td>
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td><li>Presented at GGC CREATE Symposium</li></td>
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td><li>Led group project to deliver and present finished product</li></td>
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td><li>Used Github to keep track of version control</li></td>
+  				</tr>
+  	</table>
+    </p>
+  </article>
+  <p><a href = "#top" title = "Shawna Cassagnol Resume">Back to Top</a>
+  </p>
+</body>
+</html>
