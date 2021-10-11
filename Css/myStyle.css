@@ -68,7 +68,7 @@ margin-right: 20px;
   left: 50%;
   bottom: 50%;
   position: absolute;
-  height: 1290px;
+  height: 1425px;
   width: 700px;
   margin-left: -350px;
   margin-top: -300px;
@@ -92,13 +92,12 @@ margin-right: 20px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  position: absolute;
   top:50%;
   left:50%;
   height:25x;
   width:300px;
   margin-left: 5px;
-  margin-top: 370px;
+  margin-top: 0;
 
 }
 
@@ -113,13 +112,12 @@ margin-right: 20px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  position: absolute;
   top:50%;
   left:50%;
   height:100x;
   width:200px;
   margin-left: 50px;
-  margin-top: 300px;
+  margin-top: 0px;
 }
 
 .resumeImage{
