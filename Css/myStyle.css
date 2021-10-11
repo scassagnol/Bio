@@ -1,132 +1,72 @@
-/* myStyle.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148574045-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-body {
-text-align: center;
-font-family: "Lucida Console", Monaco, monospace;
-background-image: url("brown.jpg");
-background-size: cover;
-background-position: center center;
-background-attachment: fixed;
-color: black;
-}
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-.links{
-height:32px;
-width=:32px;
-padding:30px;
+  gtag('config', 'UA-148574045-1');
+</script>
 
-}
+	<meta charset="utf-8">
+	<title> Shawna's Portfolio </title>
+	<link rel="stylesheet"
+	type = "text/css"
+	href="myStyle.css" />
+</head>
+<body>
+<div class="container">
+  <div class="bio">
+      <a href="https://github.com/scassagnol">
+      <img src="GitHub.png" class="links" ></a>
+      <a href="https://www.linkedin.com/in/shacass/">
+      <img src="linkedin.png" class="links" ></a>
 
-.bio{
-font-size: 20px;
-}
+      <h1> Hi! I'm Shawna </h1>
+      <h2> A software developer </h2>
+      <p class="bio">I've made a few video games, worked with a couple of databases and have done some testing with websites using Selenium. I made this site to help myself learn and improve. I am currently researching and looking into getting a few certifications and trying to do more with the languages that I already know.<p>
 
-.details{
-  font-size: 16px;
-}
+  </div>
 
-.skills{
-display:grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 20px;
-background-color: #fff ;
-margin-left: 20px;
-margin-right: 20px;
+  <div class="skills">
+    <div class="item">
+      <h4>Development</h4>
+      <img src="work-team.png" class="skillImage">
+      <p class="details">I've learned that being a part of a team is very important and that there are different methodologies when it comes to developing software. It has also helped me personally with communication skills with a variety of people.</p>
+    </div>
+  <div class="item">
+    <h4>Testing</h4>
+    <img src="science.png" class="skillImage">
+    <p class="details">Although it can be very frustrating I do enjoy writing test cases and coming up with possible scenerios for user stories. I've used Selenium multiple times for a few school projects.</p>
+    </div>
+  <div class="item">
+    <h4>Coding</h4>
+    <img src="coding.png" class="skillImage">
+    <p class="details">I started coding in Python my Sophomore year of college and learned that I am able to apply a lot of simple snippets of code that build upon each other into something amazing.</p>
 
-}
+    </div>
+  </div>
 
-.skillImage{
-  width: 100px;
-  height:100px;
-}
+<div>
+<!--<img src="cv.png" class="resumeImage" alt>-->
+<img src="cv.png"class="resumeImage" >
+<p><a href="Documents/ShawnaCassagnol.docx" alt>
+        <button class="buttonWord">Resume (Word Doc) </button></a></p>
 
-.item {
-  background-color: #81B622;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
-}
+<a href="Documents/ShawnaCassagnol.pdf" alt>
+        <button class="buttonPDF">Resume (PDF)</button></a>
+      </div>
+<div class="contact">
+<h2>Want to get in touch?</h2>
+<p>Email me by clicking on the image below</p>
+<p><a href="mailto:shawna.cassagnol@gmail.com">
+		<img border="0"  src="email.png" width="100" height="100">
+		</a></p>
+  </div>
 
-
-
-.email{
-  color:white;
-  position: absolute;
-  top:50%;
-  left:50%;
-  height:200x;
-  width:300px;
-  margin-left: -150px;
-  margin-top: 95px;
-
-}
-
-.container{
-  background-color: white;
-  top: 50%;
-  left: 50%;
-  bottom: 50%;
-  position: absolute;
-  height: 1275px;
-  width: 900px;
-  margin-left: -400px;
-  margin-top: -300px;
-
-
-}
-
-.contact{
-  margin-top: 20px;
-}
-
-/*button style*/
-.buttonPDF {
-  background-color: #81B622;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  top:50%;
-  left:50%;
-  height:25x;
-  width:300px;
-  margin-left: 5px;
-  margin-top: 0;
-
-}
-
-.buttonWord {
-  background-color: #81B622;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  top:50%;
-  left:50%;
-  height:100x;
-  width:200px;
-  margin-left: 50px;
-  margin-top: 0px;
-}
-
-.resumeImage{
-  width:100px;
-  height:100px;
-  float:center;
-  margin-top: 20px;
-  margin-left: -150px;
-}
+	</div>
+</body>
+  </html>
