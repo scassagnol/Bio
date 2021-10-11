@@ -4,6 +4,7 @@ body {
 text-align: center;
 font-family: "Lucida Console", Monaco, monospace;
 background-image: url("eevee.png");
+background-repeat: repeat-x;
 color: black;
 }
 /* mouse over link */
