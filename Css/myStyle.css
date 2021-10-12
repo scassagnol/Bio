@@ -73,16 +73,11 @@ position: center;
 
 .container{
   background-color: white;
-  top: 50%;
   left: 50%;
-  bottom: 50%;
-  position: absolute;
-  height: 1275px;
+  position: relative;
   width: 950px;
-  margin-left: -400px;
-  margin-top: -300px;
-
-
+  margin-left: -475px;
+  
 }
 
 .contact{
