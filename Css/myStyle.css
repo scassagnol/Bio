@@ -31,7 +31,8 @@ position: center;
 
 .skills{
 display:grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
 grid-gap: 20px;
 background-color: #fff ;
 margin-left: 20px;
@@ -71,8 +72,8 @@ margin-right: 20px;
   background-color: white;
   left: 50%;
   position: relative;
-  width: 950px;
-  margin-left: -475px;
+  width: 700px;
+  margin-left: -350px;
   
 }
 
